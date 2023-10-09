@@ -21,5 +21,7 @@ This environment file was created by creating a conda environment and then incre
     conda install flake8 
     conda install black pre-commit
     conda install notebook
+    conda install matplotlib
+    conda install seaborn
     pip install udacity-pa
     conda env export > environment_myaind.yml
