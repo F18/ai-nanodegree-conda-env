@@ -5,6 +5,10 @@ Clone the repo and run:
 
     conda env create -f environment_myaind.yml
 
+Activate the repo:
+
+    conda activate myaind
+
 This environment file was created by creating a conda environment and then incrementally installing packages as follows:
 
     conda create -n myaind
@@ -16,5 +20,8 @@ This environment file was created by creating a conda environment and then incre
     conda install pypy
     conda install flake8 
     conda install black pre-commit
+    conda install notebook
+    conda install matplotlib
+    conda install seaborn
     pip install udacity-pa
     conda env export > environment_myaind.yml
